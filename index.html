@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="./index.css"/>
     <title>KhaanaApkeyGhar</title>
 </head>
 <body>
     <div id ="root"> 
+    <div>NOT RENDERED</div>
     </div>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script>
-        const heading = React.createElement("div", {id:'main'},[React.createElement("h1",{id:"child1"},"You are worthy!"),
-        React.createElement("h1",{id:"child2"},"You are responsible for your life!!")   
-        ]);
-        const root = ReactDOM.createRoot(document.getElementById("root"));
-        root.render(heading);
+    <script src = './app.js'> 
     </script>
 </body>
 </html>
