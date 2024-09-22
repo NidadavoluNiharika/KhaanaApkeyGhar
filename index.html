@@ -6,6 +6,13 @@
     <title>KhaanaApkeyGhar</title>
 </head>
 <body>
-    <div id ="root"> You are worthy!</div>
+    <div id ="root"> 
+    </div>
+    <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "You are worthy!";
+        const divElement = document.getElementById("root");
+        divElement.appendChild(heading);
+    </script>
 </body>
 </html>
