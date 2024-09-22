@@ -1,0 +1,29 @@
+{
+  "name": "khaanaapkeyghar",
+  "version": "1.0.0",
+  "description": "React and Basics",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NidadavoluNiharika/KhaanaApkeyGhar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NidadavoluNiharika/KhaanaApkeyGhar/issues"
+  },
+  "homepage": "https://github.com/NidadavoluNiharika/KhaanaApkeyGhar#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]   
+}
